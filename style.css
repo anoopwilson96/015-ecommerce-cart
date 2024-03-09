@@ -1,0 +1,35 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header h2{
+  font-family: "Madimi One", sans-serif;
+}
+header h3,header h4{
+  font-family: "Ojuju", sans-serif;
+  font-size: 1rem;
+}
+#logo{
+  height: 45px;
+}
+#logoAtext{
+  display: flex;
+  flex-direction: row;
+  align-items:baseline;
+}
+#logoAcaption{
+  display:flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+#caption{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#caption > img{
+  height: 35px;
+}
