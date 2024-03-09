@@ -79,8 +79,7 @@ header{
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  
-  margin-bottom: 3rem;
+  margin-bottom: 1.25rem;
 }
 
 footer{
@@ -110,6 +109,27 @@ footer{
 
 /* Styles for screens between 992px and 1199.98px (Large devices) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+  
+  #hooray1 > img{
+    height: 300px;
+  }
+  #hooray2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3rem;
+  }
+
+
+  #hooray1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 200px;
+  }
+  
   /* Your styles for large screens go here */
 }
 
