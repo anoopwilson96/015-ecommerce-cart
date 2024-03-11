@@ -1,71 +1,84 @@
-*{
-  padding:0;
+* {
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-.container{
+
+.container {
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
 }
-.container2{
+
+.container2 {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
-main{
+
+main {
   border-bottom: 2px solid rgb(141, 85, 12);
   border-left: 2px solid rgb(141, 85, 12);
-  border-right:2px solid rgb(141, 85, 12) ;
+  border-right: 2px solid rgb(141, 85, 12);
 }
-header h2{
+
+header h2 {
   font-family: "Madimi One", sans-serif;
 }
-header h3,header h4{
+
+header h3,
+header h4 {
   font-family: "Ojuju", sans-serif;
   font-size: 1rem;
 }
-#logo{
+
+#logo {
   height: 45px;
 }
-#logoAtext{
+
+#logoAtext {
   display: flex;
   flex-direction: row;
-  align-items:baseline;
+  align-items: baseline;
   padding-top: .55rem;
 }
-#logoAcaption{
-  display:flex;
+
+#logoAcaption {
+  display: flex;
   flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
   padding-left: 1rem;
   padding-right: 1rem;
-  
+
 }
 
-#caption{
-color: rgb(110, 63, 2);
-font-weight: 400;
+#caption {
+  color: rgb(110, 63, 2);
+  font-weight: 400;
 }
 
-#caption > img{
+#caption>img {
   height: 35px;
 }
-header{
+
+header {
   border: 2px solid rgb(141, 85, 12);
-  background-color: rgb(255,196,57);
+  background-color: rgb(255, 196, 57);
 }
-#hooray1 > img{
+
+#hooray1>img {
   height: 200px;
 }
-#hooray2{
+
+#hooray2 {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: .75rem;
 }
-#hooray1{
+
+#hooray1 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -73,7 +86,7 @@ header{
   gap: 0;
 }
 
-.checkout{
+.checkout {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,7 +95,7 @@ header{
   margin-bottom: 1.25rem;
 }
 
-footer{
+footer {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -110,11 +123,12 @@ footer{
 /* Styles for screens between 992px and 1199.98px (Large devices) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-  
-  #hooray1 > img{
+
+  #hooray1>img {
     height: 300px;
   }
-  #hooray2{
+
+  #hooray2 {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -122,24 +136,25 @@ footer{
   }
 
 
-  #hooray1{
+  #hooray1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     gap: 200px;
   }
-  
+
   /* Your styles for large screens go here */
 }
 
 /* Styles for screens 1200px and larger (Extra Large devices) */
 @media (min-width: 1200px) {
 
-  #hooray1 > img{
+  #hooray1>img {
     height: 300px;
   }
-  #hooray2{
+
+  #hooray2 {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -147,14 +162,14 @@ footer{
   }
 
 
-  #hooray1{
+  #hooray1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     gap: 200px;
   }
-  
+
 
 
 
